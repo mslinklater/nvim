@@ -9,3 +9,6 @@
 
 -- turn off auto-format on save
 vim.g.autoformat = true
+--
+-- Default colorscheme
+vim.cmd("colorscheme desert")
