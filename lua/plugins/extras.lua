@@ -1,5 +1,3 @@
 return {
-  { import = "lazyvim.plugins.extras.lang.cmake" },
-  { import = "lazyvim.plugins.extras.lang.clangd" },
-  { import = "lazyvim.plugins.extras.dap.core" },
+  -- LazyVim extras must be imported in lua/config/lazy.lua before { import = "plugins" }
 }
